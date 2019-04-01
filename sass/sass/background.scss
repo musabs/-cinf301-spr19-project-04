@@ -1,0 +1,18 @@
+body{
+background: #DACFCD;
+margin: 0px;
+padding:0px;
+}
+
+h1{font-style: italic;}
+
+// mixin
+@mixin ab{
+width:100px;
+color:green;
+}
+.btn
+{
+@include ab;
+}
+

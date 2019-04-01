@@ -1,0 +1,22 @@
+// Properties used = Variables, operator, mixins, @import
+
+// variable used
+$bc: blue;
+$size :50 * 2px; // operator used
+$fsize: 10 * 2px;$f: 50px; $w: 200px;
+@import 'background'; // import used
+.box1{
+	background:$bc; height: $size;width: $size; font-size:70px;text-align:center;
+}
+.go1{
+	width:150px; height:50px; background:red; font-size:$fsize;
+}
+.again1{
+width:$w; height:$f;background:yellow;font-size:$fsize;
+}
+
+.win{
+color: green;
+}
+.loss{color:red;}
+.t{color:gray}
